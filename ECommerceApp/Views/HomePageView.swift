@@ -10,7 +10,7 @@ import SwiftUI
 struct HomePageView: View {
     @EnvironmentObject var cartManager: CartManager
     var body: some View {
-        NavigationView {
+        NavigationStack {
             ZStack(alignment: .top) {
                 Color(.white)
                     .edgesIgnoringSafeArea(.all)
