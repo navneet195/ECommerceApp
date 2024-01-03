@@ -88,3 +88,36 @@ fastlane/test_output
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
+
+# Xcode
+.DS_Store
+*/.DS_Store
+*.xcuserstate
+*.xcworkspace
+Podfile.lock
+
+# Build artifacts
+build/
+DerivedData/
+*.build/
+
+# Dependencies
+Pods/
+*.xcworkspace/contents.xcworkspacedata
+*.xccheckout
+
+# Sensitive data
+*.xcconfig
+*.pem
+*.cer
+*.mobileprovision
+.env
+.env.*
+
+#local gitlab runner
+builds
+
+#lintErr
+lintErr.txt
+
+Gemfile.lock
