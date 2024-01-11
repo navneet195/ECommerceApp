@@ -18,13 +18,13 @@ struct SearchCardView: View {
                     .padding()
 
             }
-            .background(Color("kSecondary"))
+            .background(Color(ColorName.kSecondary))
             .cornerRadius(12)
 
             Image(systemName: "camera")
                 .padding()
                 .foregroundColor(.white)
-                .background(Color("kPrimary"))
+                .background(Color(ColorName.kPrimary))
                 .cornerRadius(12)
         }
         .padding(.horizontal)

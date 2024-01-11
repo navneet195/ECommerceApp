@@ -14,7 +14,7 @@ struct ProductCardView: View {
 
     var body: some View {
         ZStack {
-            Color("kSecondary")
+            Color(ColorName.kSecondary)
             ZStack(alignment: .bottomTrailing) {
                 VStack(alignment: .leading) {
                     Image(product.image)
@@ -43,7 +43,7 @@ struct ProductCardView: View {
                 } label: {
                     Image(systemName: "plus.circle.fill")
                         .resizable()
-                        .foregroundColor(Color("kPrimary"))
+                        .foregroundColor(Color(ColorName.kPrimary))
                         .frame(width: 35, height: 35)
                         .padding(.trailing)
                 }

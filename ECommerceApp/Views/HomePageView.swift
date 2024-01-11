@@ -31,7 +31,7 @@ struct HomePageView: View {
                                 ProductView()
                             }
                             ,label: { Image(systemName: "circle.grid.2x2.fill")
-                                .foregroundColor(Color("kPrimary"))
+                                .foregroundColor(Color(ColorName.kPrimary))
                             })
 //                            .navigationTitle("All Furniture")
 
@@ -92,7 +92,7 @@ struct AppBar: View {
                 + Text(" Furniture")
                     .font(.headline)
                     .bold()
-                    .foregroundColor(Color("kPrimary"))
+                    .foregroundColor(Color(ColorName.kPrimary))
             }
         }
         .padding()

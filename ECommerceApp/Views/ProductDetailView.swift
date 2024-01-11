@@ -37,7 +37,7 @@ struct ProductDetailView: View {
                                 .font(.title2)
                                 .fontWeight(.semibold)
                                 .padding(.horizontal)
-                                .background(Color("kSecondary"))
+                                .background(Color(ColorName.kSecondary))
                                 .cornerRadius(12)
 
                         }
@@ -63,7 +63,7 @@ struct ProductDetailView: View {
                                 Text("1")
                                 Button(action: {}, label: {
                                     Image(systemName: "plus.square")
-                                        .foregroundColor(Color("kPrimary"))
+                                        .foregroundColor(Color(ColorName.kPrimary))
                                 })
 
                             }
